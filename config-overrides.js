@@ -11,7 +11,7 @@ module.exports = override(
     '<Features>': path.resolve(__dirname, 'src/shared/features'),
     '<FeaturesMultiStore>': path.resolve(
       __dirname,
-      'src/shared/features-multi-store',
+      'src/shared/features-multi-store'
     ),
     '<Helpers>': path.resolve(__dirname, 'src/utils'),
     '<State>': path.resolve(__dirname, 'src/state'),
@@ -23,5 +23,5 @@ module.exports = override(
       displayName: true,
     })
     return config
-  },
+  }
 )
