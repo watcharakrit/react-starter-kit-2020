@@ -1,0 +1,62 @@
+{
+  "name": "sdn-mobile-client",
+  "version": "0.1.0",
+  "private": true,
+  "engines": {
+    "node": "10.16.3"
+  },
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "3.4.1"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "sh -ac '. ./.env.${REACT_APP_ENV}; react-app-rewired build'",
+    "build:staging": "REACT_APP_ENV=staging yarn build",
+    "build:production": "REACT_APP_ENV=production yarn build",
+    "format": "prettier --write src/**/*.{js,jsx}",
+    "test": "react-app-rewired test",
+    "eject": "react-app-rewired eject"
+  },
+  "jest": {
+    "verbose": true
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not ie <= 11",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "customize-cra": "^0.9.1",
+    "husky": "^4.2.3",
+    "lint-staged": "^10.1.1",
+    "prettier": "^2.0.2",
+    "react-app-rewired": "^2.1.5"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,json,css,md}": [
+      "prettier --write",
+      "git add"
+    ]
+  }
+}
