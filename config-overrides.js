@@ -9,10 +9,7 @@ module.exports = override(
     '<Styles>': path.resolve(__dirname, 'src/styles'),
     '<UI>': path.resolve(__dirname, 'src/shared/base-ui'),
     '<Features>': path.resolve(__dirname, 'src/shared/features'),
-    '<FeaturesMultiStore>': path.resolve(
-      __dirname,
-      'src/shared/features-multi-store'
-    ),
+    '<FeaturesMultiStore>': path.resolve(__dirname, 'src/shared/features-multi-store'),
     '<Helpers>': path.resolve(__dirname, 'src/utils'),
     '<State>': path.resolve(__dirname, 'src/state'),
     '<Hooks>': path.resolve(__dirname, 'src/shared/hooks'),
