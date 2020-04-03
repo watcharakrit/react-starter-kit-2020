@@ -1,0 +1,30 @@
+.touch a,
+.touch button,
+.touch .btn,
+.touch .button,
+.touch select {
+  cursor: default;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  user-select: none;
+}
+.touch label {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  user-select: none;
+}
+.touch label span {
+  cursor: default;
+}
+.no-touch a,
+.no-touch button,
+.no-touch .btn,
+.no-touch .button,
+.no-touch select {
+  cursor: pointer;
+  user-select: none;
+}
+.no-touch label {
+  user-select: none;
+}
+.no-touch label span {
+  cursor: pointer;
+}

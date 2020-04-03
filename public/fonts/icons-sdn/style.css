@@ -1,0 +1,123 @@
+@font-face {
+  font-family: 'icomoon';
+  src: url('fonts/icomoon.ttf?gty8k7') format('truetype'), url('fonts/icomoon.woff?gty8k7') format('woff'),
+    url('fonts/icomoon.svg?gty8k7#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^='icon-sdn-'],
+[class*=' icon-sdn-'] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-sdn-list:before {
+  content: '\e91c';
+}
+.icon-sdn-recommendation:before {
+  content: '\e91d';
+}
+.icon-sdn-calendar-02:before {
+  content: '\e917';
+}
+.icon-sdn-checklist:before {
+  content: '\e918';
+}
+.icon-sdn-medicines:before {
+  content: '\e919';
+}
+.icon-sdn-pin-map:before {
+  content: '\e91a';
+}
+.icon-sdn-stethoscope-02:before {
+  content: '\e91b';
+}
+.icon-sdn-completely-case:before {
+  content: '\e900';
+}
+.icon-sdn-eye:before {
+  content: '\e901';
+}
+.icon-sdn-in-appointment:before {
+  content: '\e902';
+}
+.icon-sdn-medicine:before {
+  content: '\e903';
+}
+.icon-sdn-microphone:before {
+  content: '\e904';
+}
+.icon-sdn-stethoscope:before {
+  content: '\e905';
+}
+.icon-sdn-pause:before {
+  content: '\e91f';
+}
+.icon-sdn-play:before {
+  content: '\e920';
+}
+.icon-sdn-admin-talk:before {
+  content: '\e91e';
+}
+.icon-sdn-calendar:before {
+  content: '\e906';
+}
+.icon-sdn-camera:before {
+  content: '\e907';
+}
+.icon-sdn-floppy-disk:before {
+  content: '\e908';
+}
+.icon-sdn-magnify:before {
+  content: '\e909';
+}
+.icon-sdn-time:before {
+  content: '\e90a';
+}
+.icon-sdn-pencil:before {
+  content: '\e90b';
+}
+.icon-sdn-people-invert:before {
+  content: '\e90c';
+}
+.icon-sdn-people:before {
+  content: '\e90d';
+}
+.icon-sdn-peoples:before {
+  content: '\e90e';
+}
+.icon-sdn-phone-down:before {
+  content: '\e90f';
+}
+.icon-sdn-phone:before {
+  content: '\e910';
+}
+.icon-sdn-caret-left:before {
+  content: '\e911';
+}
+.icon-sdn-caret-right:before {
+  content: '\e912';
+}
+.icon-sdn-caret-up:before {
+  content: '\e913';
+}
+.icon-sdn-caret-down:before {
+  content: '\e914';
+}
+.icon-sdn-cross:before {
+  content: '\e915';
+}
+.icon-sdn-trash:before {
+  content: '\e916';
+}
