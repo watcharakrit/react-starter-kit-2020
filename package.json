@@ -1,6 +1,6 @@
 {
-  "name": "sdn-mobile-client",
-  "version": "0.1.0",
+  "name": "react-starter-kit-2020",
+  "version": "1.0.0",
   "private": true,
   "engines": {
     "node": "10.16.3"

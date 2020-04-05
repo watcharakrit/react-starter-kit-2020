@@ -6,8 +6,8 @@
   font-style: normal;
 }
 
-[class^='icon-sdn-'],
-[class*=' icon-sdn-'] {
+[class^='icon-custom-'],
+[class*=' icon-custom-'] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'icomoon' !important;
   speak: none;
@@ -22,102 +22,102 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-sdn-list:before {
+.icon-custom-list:before {
   content: '\e91c';
 }
-.icon-sdn-recommendation:before {
+.icon-custom-recommendation:before {
   content: '\e91d';
 }
-.icon-sdn-calendar-02:before {
+.icon-custom-calendar-02:before {
   content: '\e917';
 }
-.icon-sdn-checklist:before {
+.icon-custom-checklist:before {
   content: '\e918';
 }
-.icon-sdn-medicines:before {
+.icon-custom-medicines:before {
   content: '\e919';
 }
-.icon-sdn-pin-map:before {
+.icon-custom-pin-map:before {
   content: '\e91a';
 }
-.icon-sdn-stethoscope-02:before {
+.icon-custom-stethoscope-02:before {
   content: '\e91b';
 }
-.icon-sdn-completely-case:before {
+.icon-custom-completely-case:before {
   content: '\e900';
 }
-.icon-sdn-eye:before {
+.icon-custom-eye:before {
   content: '\e901';
 }
-.icon-sdn-in-appointment:before {
+.icon-custom-in-appointment:before {
   content: '\e902';
 }
-.icon-sdn-medicine:before {
+.icon-custom-medicine:before {
   content: '\e903';
 }
-.icon-sdn-microphone:before {
+.icon-custom-microphone:before {
   content: '\e904';
 }
-.icon-sdn-stethoscope:before {
+.icon-custom-stethoscope:before {
   content: '\e905';
 }
-.icon-sdn-pause:before {
+.icon-custom-pause:before {
   content: '\e91f';
 }
-.icon-sdn-play:before {
+.icon-custom-play:before {
   content: '\e920';
 }
-.icon-sdn-admin-talk:before {
+.icon-custom-admin-talk:before {
   content: '\e91e';
 }
-.icon-sdn-calendar:before {
+.icon-custom-calendar:before {
   content: '\e906';
 }
-.icon-sdn-camera:before {
+.icon-custom-camera:before {
   content: '\e907';
 }
-.icon-sdn-floppy-disk:before {
+.icon-custom-floppy-disk:before {
   content: '\e908';
 }
-.icon-sdn-magnify:before {
+.icon-custom-magnify:before {
   content: '\e909';
 }
-.icon-sdn-time:before {
+.icon-custom-time:before {
   content: '\e90a';
 }
-.icon-sdn-pencil:before {
+.icon-custom-pencil:before {
   content: '\e90b';
 }
-.icon-sdn-people-invert:before {
+.icon-custom-people-invert:before {
   content: '\e90c';
 }
-.icon-sdn-people:before {
+.icon-custom-people:before {
   content: '\e90d';
 }
-.icon-sdn-peoples:before {
+.icon-custom-peoples:before {
   content: '\e90e';
 }
-.icon-sdn-phone-down:before {
+.icon-custom-phone-down:before {
   content: '\e90f';
 }
-.icon-sdn-phone:before {
+.icon-custom-phone:before {
   content: '\e910';
 }
-.icon-sdn-caret-left:before {
+.icon-custom-caret-left:before {
   content: '\e911';
 }
-.icon-sdn-caret-right:before {
+.icon-custom-caret-right:before {
   content: '\e912';
 }
-.icon-sdn-caret-up:before {
+.icon-custom-caret-up:before {
   content: '\e913';
 }
-.icon-sdn-caret-down:before {
+.icon-custom-caret-down:before {
   content: '\e914';
 }
-.icon-sdn-cross:before {
+.icon-custom-cross:before {
   content: '\e915';
 }
-.icon-sdn-trash:before {
+.icon-custom-trash:before {
   content: '\e916';
 }

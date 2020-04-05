@@ -5,6 +5,7 @@ import { AppContext } from '<State>/AppProvider'
 import colors from '<Styles>/colors'
 import fonts from '<Styles>/fonts'
 import media from '<Styles>/media-queries'
+import { Icon, Container } from '<UI>'
 
 import MainLayout from '<Layouts>/Main'
 
@@ -20,7 +21,7 @@ function Home() {
   return (
     <MainLayout>
       <AppContainer className="App">
-        <i className="icon-sdn-recommendation" /> Edit <code>src/App.js</code> and save to reload.{' '}
+        <Icon name="recommendation" /> Edit <code>src/App.js</code> and save to reload.{' '}
         <Username className="button">{userProfile}</Username> {process.env.REACT_APP_API_HOSTNAME}
         ทดสอบภาษาไทย
       </AppContainer>
@@ -30,7 +31,7 @@ function Home() {
 
 export default Home
 
-const AppContainer = styled.div`
+const AppContainer = styled(Container)`
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
