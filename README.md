@@ -20,18 +20,19 @@ React Starter Kit 2020 (v1.0.0)
 - Testing setup with react testing library.
 
 RoadMap
-[] Updated: Homepage for React Starter Kit 2020.
-[] Add base-ui components Button.
-[] Add base-ui components Form.
-[] Add base-ui components Select.
-[] Add base-ui components Select Search.
-[] Add base-ui components Select Multi Select and Search.
-[] Add base-ui components Modal.
-[] Add base-ui components Switch.
-[] Add base-ui components Tab.
-[] Add base-ui components Checkbox.
-[] Add base-ui components Radio.
-[] Add base-ui components Carousel with flickity.
+
+- [ ] Updated: Homepage for React Starter Kit 2020.
+- [ ] Add base-ui components Button.
+- [ ] Add base-ui components Form.
+- [ ] Add base-ui components Select.
+- [ ] Add base-ui components Select Search.
+- [ ] Add base-ui components Select Multi Select and Search.
+- [ ] Add base-ui components Modal.
+- [ ] Add base-ui components Switch.
+- [ ] Add base-ui components Tab.
+- [ ] Add base-ui components Checkbox.
+- [ ] Add base-ui components Radio.
+- [ ] Add base-ui components Carousel with flickity.
 
 ## Prerequisites
 
