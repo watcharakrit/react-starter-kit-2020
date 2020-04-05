@@ -2,6 +2,9 @@ React Starter Kit 2020 (v1.0.0)
 
 - React Hook.
 - Bioler page with layout for good mobile structure.
+- React Router
+  - lazy and subspending for split chunk javascript page.
+  - LinkWithPreload component for can preloading next pages script.
 - Alias standard (Config overrides with react-app-rewired).
 - Import custom fonts icon (with icomoon project).
 - Styled-Component.
